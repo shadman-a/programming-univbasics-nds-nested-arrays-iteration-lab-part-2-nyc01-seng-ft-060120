@@ -10,12 +10,8 @@ def find_min_in_nested_arrays(src)
       end
       element_index +=1
     end
-
-    # We have to check every element in each inner array, so after the loop finishes
-    # The current value of longest_string_element is pushed into outer_results
     outer_results << lowest_element
     row_index += 1
   end
-
   outer_results
 end
