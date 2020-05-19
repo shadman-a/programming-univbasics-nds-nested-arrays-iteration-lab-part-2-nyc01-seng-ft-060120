@@ -16,4 +16,4 @@ def find_min_in_nested_arrays(src)
   outer_results
 end
 
-puts src
+p src
