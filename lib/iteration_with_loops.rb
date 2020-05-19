@@ -9,7 +9,7 @@ def find_min_in_nested_arrays(src)
       # Element of the inner array at element_index
       # If the length of the current element is greater than the length of longest_string_element
       # Set longest_string_element to the current element
-      if src.min[row_index][element_index] > lowest_element
+      if src.min[row_index][element_index] > lowest_element.min { |a, b|  }
         lowest_element = src[row_index][element_index]
       end
       element_index +=1
