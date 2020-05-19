@@ -1,10 +1,10 @@
 def find_min_in_nested_arrays(src)
   outer_results = []
   row_index = 0
-  while row_index < src.count do
+  while row_index < src.min do
     element_index = 0
     lowest_element = 0
-    while element_index < src[row_index].count do
+    while element_index < src[row_index].min do
       # Array at row_index
       # Element of the inner array at element_index
       # If the length of the current element is greater than the length of longest_string_element
